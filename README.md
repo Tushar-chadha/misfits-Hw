@@ -10,11 +10,10 @@ This project is a Flutter application developed as part of the Misfits internshi
 
 ## Screenshots/GIFs
 
-| ![Assignment Preview 1](./screenshots/preview1.gif) | ![Assignment Preview 2](./screenshots/preview2.gif) |
-|-----------------------------------------------------|-----------------------------------------------------|
-| Preview 1                                           | Preview 2                                           |
+| ![Assignment Preview 1](https://github.com/Tushar-chadha/misfits-Hw/blob/main/Gifs/GIF_20240513_193657_495.gif) | ![Assignment Preview 2](https://github.com/Tushar-chadha/misfits-Hw/blob/main/Gifs/GIF_20240513_193625_637.gif) | ![Assignment Preview 3](https://github.com/Tushar-chadha/misfits-Hw/blob/main/Gifs/GIF_20240513_193521_619.gif) |
+|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Preview 1                                                                                                           | Preview 2                                                                                                           | Preview 3                                                                                                           |
 
 ## APK Download
 
-You can download the latest APK from [here]((https://drive.google.com/drive/folders/1e1G4VQNnA8pxzhomqhf1z-FKNZINo0CZ?usp=drive_link)).
-
+You can download the latest APK from [here](https://drive.google.com/drive/folders/1e1G4VQNnA8pxzhomqhf1z-FKNZINo0CZ?usp=drive_link).
