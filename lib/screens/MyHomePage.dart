@@ -4,9 +4,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:gap/gap.dart';
 import 'package:misfits/controller/joinNotifier.dart';
-import 'package:misfits/utils/colors.dart';
-import 'package:misfits/utils/fontStyle.dart';
-import 'package:misfits/utils/screenSize.dart';
+import 'package:misfits/utils/constant/colors.dart';
+import 'package:misfits/utils/constant/fontStyle.dart';
+import 'package:misfits/utils/constant/screenSize.dart';
 import 'package:misfits/utils/widget/clubInfoRow.dart';
 import 'package:misfits/utils/widget/clubNavBar.dart';
 import 'package:misfits/utils/widget/divider.dart';
@@ -15,6 +15,7 @@ import 'package:misfits/screens/joinedClub.dart';
 import 'package:misfits/utils/widget/pfpCircle.dart';
 import 'package:provider/provider.dart';
 
+/*Main Page*/
 class MyHomePage extends StatefulWidget {
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -74,11 +75,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
               ),
+              // Frosted Clubnavbar Start
+            
               AnimatedPositioned(
                 duration: Durations.long1,
-                bottom: _joinNotifier.joined ? 40 : -110,
-                child: ClubNavBar(),
+                bottom: _joinNotifier.joined ? 30 : -110,
+                child: const ClubNavBar(),
               ),
+              // Frosted Clubnavbar End
+              //Join Button Start
               AnimatedPositioned(
                 bottom: _joinNotifier.joined ? -110.h : 0,
                 curve: Curves.easeInOut,
@@ -120,7 +125,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                 ),
-              )
+              ),
+              //// join Button End
             ],
           ),
         ),

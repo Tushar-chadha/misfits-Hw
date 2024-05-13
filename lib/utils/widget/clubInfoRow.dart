@@ -4,9 +4,9 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:gap/gap.dart';
-import 'package:misfits/utils/fontStyle.dart';
-import 'package:misfits/utils/colors.dart';
-import 'package:misfits/utils/screenSize.dart';
+import 'package:misfits/utils/constant/fontStyle.dart';
+import 'package:misfits/utils/constant/colors.dart';
+import 'package:misfits/utils/constant/screenSize.dart';
 import 'package:misfits/utils/widget/divider.dart';
 import 'package:misfits/utils/widget/pfpCircle.dart';
 

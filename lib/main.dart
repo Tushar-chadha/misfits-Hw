@@ -19,9 +19,8 @@ class MyApp extends StatelessWidget {
   double fontSizeResolver(double fontSize, BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     double scaledFontSize = (fontSize / 412) * screenWidth;
-
     return scaledFontSize;
-  }
+  }// font resolver according to desgin size of figma Ui provided
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:misfits/utils/colors.dart';
-import 'package:misfits/utils/screenSize.dart';
+import 'package:misfits/utils/constant/colors.dart';
+import 'package:misfits/utils/constant/screenSize.dart';
 
 class divider extends StatelessWidget {
   const divider({

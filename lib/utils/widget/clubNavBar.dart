@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:gap/gap.dart';
-import 'package:misfits/utils/colors.dart';
-import 'package:misfits/utils/fontStyle.dart';
-import 'package:misfits/utils/screenSize.dart';
+import 'package:misfits/utils/constant/colors.dart';
+import 'package:misfits/utils/constant/fontStyle.dart';
+import 'package:misfits/utils/constant/screenSize.dart';
 
 class ClubNavBar extends StatefulWidget {
   const ClubNavBar({
@@ -32,23 +32,31 @@ class _ClubNavBarState extends State<ClubNavBar> {
     return Container(
       width: screenWidth(context) * 0.85,
       alignment: Alignment.center,
-      padding: const EdgeInsets.all(20),
+      padding: EdgeInsets.all(15.w),
       decoration: BoxDecoration(
         color: const Color(0xB13B383C),
         borderRadius: BorderRadius.circular(50.r),
         boxShadow: [
+             BoxShadow(
+            color: appColors.black.withOpacity(.7),
+            spreadRadius: 30.r,
+            blurRadius: 30.r,
+            offset:  Offset(0.w, 60.h), 
+          ),
           BoxShadow(
             color: Colors.black.withOpacity(0.2),
             spreadRadius: 2,
             blurRadius: 10,
-            offset: const Offset(0, 3), // changes position of shadow
+            offset: const Offset(0, 3), 
+            
           ),
+          
         ],
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(12.0),
         child: BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
+          filter: ImageFilter.blur(sigmaX: 5.w, sigmaY: 5.h,),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
