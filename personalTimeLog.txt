@@ -1,0 +1,2 @@
+1. At 05:30 created the project.
+1.1 added device_preview to app to text app on different layouts
